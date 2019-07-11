@@ -1,6 +1,6 @@
 export class LoggedInUser {
-  constructor(accesstoken: string, username: string, fullName: string, email: string, avatar: string) {
-    this.accesstoken = accesstoken;
+  constructor(access_token: string, username: string, fullName: string, email: string, avatar: string) {
+    this.access_token = access_token;
     this.username = username;
     this.fullName = fullName;
     this.email = email;
@@ -8,7 +8,7 @@ export class LoggedInUser {
   }
 
   public id: string;
-  public accesstoken: string;
+  public access_token: string;
   public username: string;
   public fullName: string;
   public email: string;
